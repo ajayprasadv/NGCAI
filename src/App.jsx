@@ -402,6 +402,9 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
             <NavItem href="#expectations" label="Tracks" scrolled={true} />
             <NavItem href="#milestones" label="Dates" scrolled={true} />
             {/* <NavItem href="#workshops" label="Workshops" scrolled={true} /> */}
+            <NavItem href="#advisory" label="Advisory" scrolled={true} />
+          <NavItem href="#cfp" label="CFP" scrolled={true} />
+          {/* <NavItem href="#editors" label="Editors" scrolled={true} /> */}
 
 
             <Link
@@ -439,9 +442,9 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
 
         {/* Second Row - New Menu Items (Desktop Only) */}
         <div className="hidden lg:flex justify-center items-center gap-8 border-t border-slate-200/30 py-3 px-6 md:px-12">
-          <NavItem href="#advisory" label="Advisory" scrolled={true} />
+          {/* <NavItem href="#advisory" label="Advisory" scrolled={true} />
           <NavItem href="#cfp" label="CFP" scrolled={true} />
-          <NavItem href="#editors" label="Editors" scrolled={true} />
+          <NavItem href="#editors" label="Editors" scrolled={true} /> */}
         </div>
       </motion.nav>
 
