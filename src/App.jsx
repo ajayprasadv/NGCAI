@@ -12,6 +12,7 @@ import campusImg from './assets/iilm-campus.png';
 import confLogo from './assets/conflogo.png';
 import workshopImg from './assets/iilm-workshop.png';
 import workflowImg from './assets/submission-workflow.jpg';
+import pressLogo from './assets/atlantis.png';
 
 const ICADC_CONTENT = {
   deadlines: [
@@ -392,6 +393,7 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
               <img src={logoImg} alt="IILM Logo" className="h-20 w-auto object-contain opacity-90 group-hover:opacity-100 transition-all" />
               <div className="flex flex-col">
                 <img src={confLogo} alt="conference logo" className="h-10 w-auto object-contain" />
+                <img src={pressLogo} alt="press logo" className="h-10 w-auto object-contain" />
                 
               </div>
             </a>
@@ -684,12 +686,14 @@ redefining the architecture of trust and technological advancement.
                   {/* CTA Box tucked under image for balance */}
                   <div className="bg-slate-900 text-white p-8 rounded-lg shadow-xl border-t-4 border-amber-500">
                     <BookOpen className="mb-4 text-amber-400" size={24} />
-                    <h3 className="text-lg font-bold mb-2">Select accepted and peer-reviewed papers will be published in Atlantis Highlights in Intelligent Systems series of Atlantis Press – a part of Springer Nature.
+                    <h3 className="text-lg font-bold mb-2">Select accepted and peer-reviewed papers will be published in Atlantis Highlights in Intelligent Systems series of Atlantis Press - a part of Springer Nature.
+                      <br/>
+                        <ArrowRight size={14} /> <a href="http://atlantis-press.com/proceedings/all" className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-amber-400 hover:text-white transition-colors">View Listing</a>
                     </h3>
                     <p className="text-slate-400 text-sm mb-6 leading-relaxed">
 
                     </p>
-                    <a href="#" className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-amber-400 hover:text-white transition-colors">
+                    <a href="https://www.atlantis-press.com/policies" className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-amber-400 hover:text-white transition-colors">
                       View Guidelines <ArrowRight size={14} />
                     </a>
                   </div>
@@ -991,7 +995,7 @@ advancement.</p>
         <div className="container mx-auto px-6 md:px-12">
           <div className="grid lg:grid-cols-4 gap-16 mb-24 border-b border-white/10 pb-16">
             <div className="lg:col-span-2">
-              <span className="font-bold text-3xl text-white mb-8 block">NGCAI 2026</span>
+              <span className="font-bold text-3xl text-white mb-8 block">NGCAI 2026 <img src={pressLogo} alt="press logo" className="h-10 w-auto object-contain" /> </span> 
               <p className="text-slate-400 leading-relaxed max-w-sm mb-8">
                 Bridging the gap between AI innovation and cybersecurity resilience. Organized by IILM University for the global academic community.
               </p>
