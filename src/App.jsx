@@ -27,8 +27,8 @@ const ICADC_CONTENT = {
     { id: 1, category: "Track 1", title: "AI/ML and Emerging Technologies in Cybersecurity", topics: ["AI/ML for threat detection and prevention", "Adversarial machine learning", "Zero Trust architectures and security automation", "AI-powered surveillance and anomaly detection", "AI for strategic defense planning"] },
     { id: 2, category: "Track 2", title: "Network and Infrastructure Security", topics: ["Secure network protocols and architectures", "Intrusion detection and prevention systems", "Cloud, edge, and IoT security", "5G/6G network security"] },
     { id: 3, category: "Track 3", title: "Quantum Computing and Modern Cryptography", topics: ["Quantum computing and post-quantum cryptography", "Cryptography and cryptanalysis", "Quantum cryptography and secure communications", "Quantum computing for optimization problems"] },
-    { id: 4, category: "Track 4", title: "5G and Next Generation Communication Technologies", topics: ["6G Vision and Technologies", "Massive MIMO", "Energy Efficiency and Green Communications", "5G for Internet of Things (IoT)", "AI-Enabled Networking", "Ultra-Reliable Low-Latency Communications (URLLC)"] },
-    { id: 5, category: "Track 5", title: "Electrical Vehicle and UAV Technologies", topics: ["Unmanned Aircraft Vehicles (UAV) and Systems", "Convergence of Drones and Artificial Intelligence", "Cybersecurity, Safety, and Resilience of Unmanned Systems", "Electric Vehicles", "Smart Grid and Charging Infrastructure", "V2V and V2I Communication", "Green Manufacturing", "EV standards: Policy, Education & Market", "Autonomous and Intelligent Robotic Vehicles"] }
+    { id: 4, category: "Track 4", title: "Emerging Technologies, Semiconductor/IoT/Communication", topics: ["6G Vision and Technologies", "Massive MIMO", "Energy Efficiency and Green Communications", "5G for Internet of Things (IoT)", "AI-Enabled Networking", "Ultra-Reliable Low-Latency Communications (URLLC)"] },
+    { id: 5, category: "Track 5", title: "Electrical Vehicle and UAV Technologies", topics: ["VLSI","Semiconductor Technologies","Unmanned Aircraft Vehicles (UAV) and Systems", "Convergence of Drones and Artificial Intelligence", "Cybersecurity, Safety, and Resilience of Unmanned Systems", "Electric Vehicles", "Smart Grid and Charging Infrastructure", "V2V and V2I Communication", "Green Manufacturing", "EV standards: Policy, Education & Market", "Autonomous and Intelligent Robotic Vehicles"] }
   ],
   workshops: [
     { title: "Hands-on TensorFlow for Building AI Intrusion Detection Systems", desc: "A practical deep dive into building production-ready IDS using the latest TensorFlow frameworks.", seats: 24 },
@@ -401,7 +401,7 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
             <NavItem href="#about" label="About" scrolled={true} />
             <NavItem href="#expectations" label="Tracks" scrolled={true} />
             <NavItem href="#milestones" label="Dates" scrolled={true} />
-            <NavItem href="#workshops" label="Workshops" scrolled={true} />
+            {/* <NavItem href="#workshops" label="Workshops" scrolled={true} /> */}
 
 
             <Link
@@ -454,7 +454,8 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
             exit={{ opacity: 0, y: -20 }}
             className="fixed inset-0 z-40 bg-white flex flex-col items-center justify-center gap-8"
           >
-            {['About', 'Tracks', 'Dates', 'Workshops'].map(item => (
+            {/* {['About', 'Tracks', 'Dates', 'Workshops'].map(item =>...... removed workshops */}
+            {['About', 'Tracks', 'Dates'].map(item => (
               <a key={item} href={`#${item.toLowerCase()}`} onClick={() => setIsMenuOpen(false)} className="text-3xl font-bold text-slate-900 hover:text-emerald-600 transition-all">
                 {item}
               </a>
@@ -550,7 +551,7 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
 
               {/* Description */}
               <motion.p variants={fadeInUp} className="text-lg md:text-2xl text-amber-100 font-normal max-w-2xl leading-relaxed border-l-4 border-amber-400 pl-4 md:pl-6">
-                Where Where Artificial Intelligence converges with Digital Defense, Next-Generation
+                Where Artificial Intelligence converges with Digital Defense, Next-Generation
 Communication, and Electric Vehicle Technology to shape the future of secure,
 intelligent, and sustainable systems. Join visionary experts and innovators in
 redefining the architecture of trust and technological advancement.
@@ -602,7 +603,7 @@ redefining the architecture of trust and technological advancement.
 
               {[                { label: "Host", val: "IILM University", sub: "Greater Noida", icon: <MapPin size={24} className="text-amber-400" /> },
                 { label: "Proceedings", val: "Coming Soon", sub: "To be announced", icon: <BookOpen size={24} className="text-amber-300" /> },
-                { label: "Date", val: "Oct 09-10", sub: "2026 Hybrid", icon: <Clock size={24} className="text-amber-200" /> }
+                { label: "Date", val: "Nov 20-21", sub: "2026 Hybrid", icon: <Clock size={24} className="text-amber-200" /> }
               ].map((stat, idx) => (
                 <motion.div
                   key={idx}
@@ -696,13 +697,13 @@ redefining the architecture of trust and technological advancement.
               <div className="lg:col-span-7 space-y-12 lg:pl-8">
                 <div>
                   <h3 className="text-4xl font-bold text-slate-950 mb-6 leading-tight">
-                    About the <br /> <span className="text-slate-400">Conference.</span>
+                    About the <br /> <span className="text-slate-400">Conference</span>
                   </h3>
                   <p className="text-lg leading-relaxed text-slate-600">
                     <strong>International Conference on Next-Generation Cybersecurity and Applied Artificial Intelligence (NGCAI)</strong> serves as a premier global forum connecting visionaries from academia and industry.
                   </p>
                   <p>
-                    By converging <span className="text-emerald-700 font-medium">Artificial Intelligence </span> and <span className="text-slate-900 font-medium">Engineering</span> The conference aims to address the critical need for adaptive defenses in an era of sophisticated, AI-generated cyber threats. As intelligent technologies reshape connectivity, mobility, and security, the future demands adaptive, resilient, and innovation-driven solutions.
+                    {/* By converging <span className="text-emerald-700 font-medium">Artificial Intelligence </span> and <span className="text-slate-900 font-medium">Engineering</span> The conference aims to address the critical need for adaptive defenses in an era of sophisticated, AI-generated cyber threats. As intelligent technologies reshape connectivity, mobility, and security, the future demands adaptive, resilient, and innovation-driven solutions. */}
                   </p>
                   <p className="mt-4 text-slate-500 leading-relaxed">The International Conference on Next-Generation Cybersecurity and Applied Artificial Intelligence - 2026 (NGCAI-2026) is a
 distinguished global platform that unites academicians, researchers, industry leaders, policymakers, and innovators to explore
@@ -924,7 +925,7 @@ advancement.</p>
       </section>
 
       {/* --- WORKSHOPS --- */}
-      <section id="workshops" className="py-32 bg-slate-50">
+      {/* <section id="workshops" className="py-32 bg-slate-50">
         <div className="container mx-auto px-6 md:px-12">
           <SectionHeader
             kicker="Practical Learning"
@@ -980,7 +981,7 @@ advancement.</p>
             ))}
           </motion.div>
         </div>
-      </section>
+      </section> */}
 
       {/* --- FOOTER --- */}
       <footer id="contact" className="bg-slate-950 text-white pt-32 pb-12 border-t border-slate-900">
@@ -1008,7 +1009,8 @@ advancement.</p>
             <div>
               <h4 className="text-xs font-bold uppercase tracking-[0.2em] text-slate-500 mb-8">Navigation</h4>
               <ul className="space-y-4">
-                {['About', 'Tracks', 'Workshops', 'Contact'].map(item => (
+                {/* removed workshops , 'Workshops' */}
+                {['About', 'Tracks', 'Contact'].map(item => (
                   <li key={item}><a href={`#${item.toLowerCase()}`} className="text-sm text-slate-300 hover:text-white transition-colors">{item}</a></li>
                 ))}
               </ul>
