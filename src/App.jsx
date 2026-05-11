@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 // Assets
 import logoImg from './assets/iilm-logo.png';
 import heroImg from './assets/iilm-hero.png';
-import campusImg from './assets/iilm-campus.png';
+import campusImg from './assets/iilm-campus1.png';
 import confLogo from './assets/conflogo.png';
 import workshopImg from './assets/iilm-workshop.png';
 import workflowImg from './assets/submission-workflow.jpg';
