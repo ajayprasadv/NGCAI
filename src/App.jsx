@@ -109,8 +109,8 @@ const NavItem = ({ href, label, scrolled }) => (
 );
 
 const CountdownTimer = () => {
-  // Target date: October 9, 2026
-  const targetDate = useMemo(() => new Date("2026-10-09T00:00:00"), []);
+  // Target date: November 20, 2026
+  const targetDate = useMemo(() => new Date("2026-11-20T00:00:00"), []);
 
   const calculateTimeLeft = () => {
     const difference = +targetDate - +new Date();
