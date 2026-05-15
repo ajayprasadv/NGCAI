@@ -60,21 +60,33 @@ const COMMITTEE_DATA = {
     generalChairs: [
         { name: "Dr. Munish Sabharwal", affiliation: "IILM University, Greater Noida" },
         { name: "Dr. Alok Agarwal", affiliation: "IILM University, Greater Noida" },
-        { name: "Dr. Babusena Paul", affiliation: "Director, Institute for Intelligent Systems, University of Johannesburg, South Africa" },
+        { name: "Dr. Arvind Kumar Jain", affiliation: "IILM University, Greater Noida" }
     ],
     organizingChairs: [
         { name: "Dr. Ajay Prasad", affiliation: "IILM University, Greater Noida" },
         { name: "Dr. Vanya Aruna", affiliation: "IILM University, Greater Noida" },
+        { name: "Dr. Naseem Ahmed", affiliation: "IILM University, Greater Noida" }
+
     ],
     organizingCoChairs: [
-        
+        { name: "Dr. Ankita Awasthi", affiliation: "IILM University, Greater Noida" },
+        { name: "Dr. Akhilesh Mishra", affiliation: "IILM University, Greater Noida" },
+        { name: "Dr. Achyut Sharma", affiliation: "IILM University, Greater Noida" }
     ],
-    programChairs: [
+    TechnicalProgramChairs: [
+        { name: "Dr. Akhilesh Mishra (Chair)", affiliation: "IILM University, Greater Noida" },
+        { name: "Dr. Abhishek Kumar", affiliation: "IILM University, Greater Noida" },
+        { name: "Dr. Rakhi Trivedi", affiliation: "IILM University, Greater Noida" },
+        { name: "Dr. Sapna Chaudhary", affiliation: "IILM University, Greater Noida" },
+        { name: "Dr. Anand Singh", affiliation: "IILM University, Greater Noida" }
 
     ],
     Editors: [
-        { name: "Dr. Ajay Prasad", affiliation: "IILM University Greater Noida, India" },
         { name: "Dr. Vanya Aruna", affiliation: "IILM University, Greater Noida" },
+        { name: "Dr. Ajay Prasad", affiliation: "IILM University Greater Noida, India" },
+        { name: "Dr. Ankita Awasthi", affiliation: "IILM University, Greater Noida" },
+        { name: "Dr. Naseem Ahmed", affiliation: "IILM University, Greater Noida" },
+        { name: "Dr. Achyut Sharma", affiliation: "IILM University, Greater Noida" }
 
     ],
     internationalAdvisory: [
@@ -109,65 +121,65 @@ const COMMITTEE_DATA = {
         // { name: "Dr. Jamuna Kanta Sing", affiliation: "Professor, Jadavpur University, India" },
     ],
     technicalProgramCommittee: [
-        // { name: "Dr. Ved Prakash Mishra", affiliation: "Professor, Amity University Dubai" },
-        // { name: "Dr. Swadha Gupta", affiliation: "Shiratech Knowtion GmbH, Germany" },
-        // { name: "Dr. Seema Rawat", affiliation: "Associate Professor, Amity University Tashkent Uzbekistan" },
-        // { name: "Dr. Abdul Razaq", affiliation: "Abertay University, United Kingdom" },
-        // { name: "Dr. Praveen Kumar", affiliation: "Professor, Astana IT University, Kazakhstan" },
-        // { name: "Ms. Marcie Sonderson", affiliation: "Criminal Investigator McAfee, Missouri, USA" },
-        // { name: "Dr. Cheng Cheng", affiliation: "Senior Lecturer Computer Science, Swansea University, UK" },
-        // { name: "Dr. Madhu Khurana", affiliation: "Assistant Professor, University of Gloucestershire, UK" },
-        // { name: "Dr. Thinagaran A/L Perumal", affiliation: "Associate Professor, Universiti Putra, Malaysia" },
-        // { name: "Dr. Danish Ather", affiliation: "Associate Professor, Amity University Tashkent Uzbekistan" },
-        // { name: "Dr. Salim Barbhuiya", affiliation: "Professor, University of Leeds, UK" },
-        // { name: "Dr. Pramod Gaur", affiliation: "Senior Lecturer, Nottingham Trent University, UK" },
-        // { name: "Dr. Manash K. Paul", affiliation: "Scientist, Principal Investigator, UCLA" },
-        // { name: "Dr. Sayantan Chakraborty", affiliation: "Chairman, IAPFE-Delaware-USA" },
-        // { name: "Dr. Vinayakumar Ravi", affiliation: "Assistant Research Professor, Prince Mohammad Bin Fahd University, Saudi Arabia" },
-        // { name: "Dr. Amit Kumar Mondal", affiliation: "Assistant Professor, Manipal University Dubai UAE" },
-        // { name: "Dr. Santhi Raju Pilli", affiliation: "Assistant Professor, Jazan University, KSA" },
-        // { name: "Dr. Manoj Kumar", affiliation: "Associate Professor, University of Wollongong, Dubai, UAE" },
-        // { name: "Dr. Nguyen Gia Nhu", affiliation: "Professor, Duy Tan University, Da Nang, Vietnam" },
-        // { name: "Dr. Teoh Teik Toe", affiliation: "Professor and Academic Director, NTU Singapore" },
-        // { name: "Dr. Mohit Mittal", affiliation: "Shiratech Knowtion GmbH, Germany" },
-        // { name: "Dr. Alexander Kuiper", affiliation: "Computer Scientist at Kuiper Forensics, Germany" },
-        // { name: "Dr. Jung-Sup Um", affiliation: "Professor, Kyungpook National University, South Korea" },
-        // { name: "Ms. Jane Eliseva", affiliation: "Head Alliances, Social Links, Riga, Latvia" },
-        // { name: "Dr. Hussain Falih Mahdi", affiliation: "Associate Professor, University of Diyala, Iraq" },
-        // { name: "Dr. Arijit Ghosh", affiliation: "Indian Statistical Institute (ISI), India" },
-        // { name: "Dr. Tanupriya Choudhury", affiliation: "UPES, India" },
-        // { name: "Dr. Akash Punhani", affiliation: "Associate Professor, IILM University, Greater Noida" },
-        // { name: "Dr. Sudhir Kumar Barai", affiliation: "BITS Pilani, India" },
-        // { name: "Dr. Kirti Shukla", affiliation: "Associate Professor, IILM University, Greater Noida" },
-        // { name: "Dr. P. Kumar", affiliation: "IIT Patna, India" },
-        // { name: "Dr. Adarsh Kumar", affiliation: "UPES, India" },
-        // { name: "Dr. Nitish Kumar Guru", affiliation: "Scientific Assistant (Ballistics), Directorate of Forensic Science and Laboratory, India" },
-        // { name: "Dr. Kaushik Ghosh", affiliation: "UPES, India" },
-        // { name: "Dr. Sourav Chakraborty", affiliation: "Indian Statistical Institute (ISI), India" },
-        // { name: "Dr. Harshal Patil", affiliation: "Professor, IILM University, Greater Noida" },
-        // { name: "Dr. Udai Bhan Trivedi", affiliation: "Professor, IILM University, Greater Noida" },
-        // { name: "Dr. Amit Kumar", affiliation: "Thapar Institute of Engineering and Technology, India" },
-        // { name: "Dr. S. Raghavan", affiliation: "NIT Trichy, India" },
-        // { name: "Dr. Ujwal Chakraborty", affiliation: "NIT Silchar, India" },
-        // { name: "Dr. Talwar Yoginder", affiliation: "Scientist at National Informatics Centre, India" },
-        // { name: "Dr. Supratim Biswas", affiliation: "BIT Mesra Ranchi, India" },
-        // { name: "Dr. Gunjan Mittal Roy", affiliation: "Associate Professor, IILM University, Greater Noida" },
-        // { name: "Dr. Chandrashekhar Azad", affiliation: "National Institute of Technology, India" },
-        // { name: "Dr. Suneet", affiliation: "CU, India" },
-        // { name: "Dr. Saurabh Kumar", affiliation: "Associate Professor, IILM University, Greater Noida" },
-        // { name: "Dr. Anil Kumar", affiliation: "UPES, India" },
-        // { name: "Dr. Kumar Venkatesh", affiliation: "MNNIT Allahabad, India" },
-        // { name: "Dr. Rudra P. Pradhan", affiliation: "IIT Kharagpur, India" },
-        // { name: "Dr. Anirban Ghatak", affiliation: "Indian Statistical Institute (ISI), India" },
-        // { name: "Dr. Richa Vijay", affiliation: "Associate Professor, IILM University, Greater Noida" },
-        // { name: "Dr. Anup Dewanji", affiliation: "Indian Statistical Institute (ISI), India" },
-        // { name: "Dr. Souvik Ganguli", affiliation: "Thapar Institute of Engineering and Technology, India" },
-        // { name: "Dr. Hitesh Kumar Sharma", affiliation: "UPES, India" },
-        // { name: "Dr. Jaswinder Singh", affiliation: "Associate Professor, IILM University, Greater Noida" },
-        // { name: "Dr. Soumik Das", affiliation: "Indian Statistical Institute (ISI), India" },
-        // { name: "Dr. Soumyabrata Chakrabarty", affiliation: "IIT, India" },
-        // { name: "Dr. Debrup Chakraborty", affiliation: "Indian Statistical Institute (ISI), India" },
-        // { name: "Mr. Karuna Nidhan Upadhyay", affiliation: "Assistant Director (Cyber Forensic), Directorate of Forensic Science and Laboratory, India" },
+        { name: "Dr. Ved Prakash Mishra", affiliation: "Professor, Amity University Dubai" },
+        { name: "Dr. Swadha Gupta", affiliation: "Shiratech Knowtion GmbH, Germany" },
+        { name: "Dr. Seema Rawat", affiliation: "Associate Professor, Amity University Tashkent Uzbekistan" },
+        { name: "Dr. Abdul Razaq", affiliation: "Abertay University, United Kingdom" },
+        { name: "Dr. Praveen Kumar", affiliation: "Professor, Astana IT University, Kazakhstan" },
+        { name: "Ms. Marcie Sonderson", affiliation: "Criminal Investigator McAfee, Missouri, USA" },
+        { name: "Dr. Cheng Cheng", affiliation: "Senior Lecturer Computer Science, Swansea University, UK" },
+        { name: "Dr. Madhu Khurana", affiliation: "Assistant Professor, University of Gloucestershire, UK" },
+        { name: "Dr. Thinagaran A/L Perumal", affiliation: "Associate Professor, Universiti Putra, Malaysia" },
+        { name: "Dr. Danish Ather", affiliation: "Associate Professor, Amity University Tashkent Uzbekistan" },
+        { name: "Dr. Salim Barbhuiya", affiliation: "Professor, University of Leeds, UK" },
+        { name: "Dr. Pramod Gaur", affiliation: "Senior Lecturer, Nottingham Trent University, UK" },
+        { name: "Dr. Manash K. Paul", affiliation: "Scientist, Principal Investigator, UCLA" },
+        { name: "Dr. Sayantan Chakraborty", affiliation: "Chairman, IAPFE-Delaware-USA" },
+        { name: "Dr. Vinayakumar Ravi", affiliation: "Assistant Research Professor, Prince Mohammad Bin Fahd University, Saudi Arabia" },
+        { name: "Dr. Amit Kumar Mondal", affiliation: "Assistant Professor, Manipal University Dubai UAE" },
+        { name: "Dr. Santhi Raju Pilli", affiliation: "Assistant Professor, Jazan University, KSA" },
+        { name: "Dr. Manoj Kumar", affiliation: "Associate Professor, University of Wollongong, Dubai, UAE" },
+        { name: "Dr. Nguyen Gia Nhu", affiliation: "Professor, Duy Tan University, Da Nang, Vietnam" },
+        { name: "Dr. Teoh Teik Toe", affiliation: "Professor and Academic Director, NTU Singapore" },
+        { name: "Dr. Mohit Mittal", affiliation: "Shiratech Knowtion GmbH, Germany" },
+        { name: "Dr. Alexander Kuiper", affiliation: "Computer Scientist at Kuiper Forensics, Germany" },
+        { name: "Dr. Jung-Sup Um", affiliation: "Professor, Kyungpook National University, South Korea" },
+        { name: "Ms. Jane Eliseva", affiliation: "Head Alliances, Social Links, Riga, Latvia" },
+        { name: "Dr. Hussain Falih Mahdi", affiliation: "Associate Professor, University of Diyala, Iraq" },
+        { name: "Dr. Arijit Ghosh", affiliation: "Indian Statistical Institute (ISI), India" },
+        { name: "Dr. Tanupriya Choudhury", affiliation: "UPES, India" },
+        { name: "Dr. Akash Punhani", affiliation: "Associate Professor, IILM University, Greater Noida" },
+        { name: "Dr. Sudhir Kumar Barai", affiliation: "BITS Pilani, India" },
+        { name: "Dr. Kirti Shukla", affiliation: "Associate Professor, IILM University, Greater Noida" },
+        { name: "Dr. P. Kumar", affiliation: "IIT Patna, India" },
+        { name: "Dr. Adarsh Kumar", affiliation: "UPES, India" },
+        { name: "Dr. Nitish Kumar Guru", affiliation: "Scientific Assistant (Ballistics), Directorate of Forensic Science and Laboratory, India" },
+        { name: "Dr. Kaushik Ghosh", affiliation: "UPES, India" },
+        { name: "Dr. Sourav Chakraborty", affiliation: "Indian Statistical Institute (ISI), India" },
+        { name: "Dr. Harshal Patil", affiliation: "Professor, IILM University, Greater Noida" },
+        { name: "Dr. Udai Bhan Trivedi", affiliation: "Professor, IILM University, Greater Noida" },
+        { name: "Dr. Amit Kumar", affiliation: "Thapar Institute of Engineering and Technology, India" },
+        { name: "Dr. S. Raghavan", affiliation: "NIT Trichy, India" },
+        { name: "Dr. Ujwal Chakraborty", affiliation: "NIT Silchar, India" },
+        { name: "Dr. Talwar Yoginder", affiliation: "Scientist at National Informatics Centre, India" },
+        { name: "Dr. Supratim Biswas", affiliation: "BIT Mesra Ranchi, India" },
+        { name: "Dr. Gunjan Mittal Roy", affiliation: "Associate Professor, IILM University, Greater Noida" },
+        { name: "Dr. Chandrashekhar Azad", affiliation: "National Institute of Technology, India" },
+        { name: "Dr. Suneet", affiliation: "CU, India" },
+        { name: "Dr. Saurabh Kumar", affiliation: "Associate Professor, IILM University, Greater Noida" },
+        { name: "Dr. Anil Kumar", affiliation: "UPES, India" },
+        { name: "Dr. Kumar Venkatesh", affiliation: "MNNIT Allahabad, India" },
+        { name: "Dr. Rudra P. Pradhan", affiliation: "IIT Kharagpur, India" },
+        { name: "Dr. Anirban Ghatak", affiliation: "Indian Statistical Institute (ISI), India" },
+        { name: "Dr. Richa Vijay", affiliation: "Associate Professor, IILM University, Greater Noida" },
+        { name: "Dr. Anup Dewanji", affiliation: "Indian Statistical Institute (ISI), India" },
+        { name: "Dr. Souvik Ganguli", affiliation: "Thapar Institute of Engineering and Technology, India" },
+        { name: "Dr. Hitesh Kumar Sharma", affiliation: "UPES, India" },
+        { name: "Dr. Jaswinder Singh", affiliation: "Associate Professor, IILM University, Greater Noida" },
+        { name: "Dr. Soumik Das", affiliation: "Indian Statistical Institute (ISI), India" },
+        { name: "Dr. Soumyabrata Chakrabarty", affiliation: "IIT, India" },
+        { name: "Dr. Debrup Chakraborty", affiliation: "Indian Statistical Institute (ISI), India" },
+        { name: "Mr. Karuna Nidhan Upadhyay", affiliation: "Assistant Director (Cyber Forensic), Directorate of Forensic Science and Laboratory, India" },
     ],
     publicityChairs: [
         { name: "Dr. ABC", affiliation: "Associate Professor, IILM University, Greater Noida" },
@@ -179,11 +191,14 @@ const COMMITTEE_DATA = {
         // { name: "Dr. Saurabh Shanu", affiliation: "IILM University, India" },
     ],
     financeChair: [
-        // { name: "Dr. Sandeep Saxena", affiliation: "Professor, IILM University, Greater Noida" },
+        { name: "Dr. Chandan Choubey", affiliation: "IILM University, Greater Noida" },
+        { name: "Dr. Sandeep Saxena", affiliation: "Professor, IILM University, Greater Noida" },
     ],
-    financeCoChairs: [
-        { name: "Dr. ABC", affiliation: "Associate Professor, IILM University, Greater Noida" },
-        // { name: "Dr. Vikas Kamra", affiliation: "Associate Professor, IILM University, Greater Noida" },
+    financeCommittee: [
+        
+        { name: "Mr. Awadhesh Maurya", affiliation: "IILM University, Greater Noida" },
+        { name: "Dr. Bidyut Mahato", affiliation: "IILM University, Greater Noida" },
+
     ],
     digitalMediaChairs: [
         { name: "Dr. ABC", affiliation: "Assistant Professor, IILM University, Greater Noida" },
@@ -191,23 +206,44 @@ const COMMITTEE_DATA = {
     ],
     digitalMediaCoChairs: [
         { name: "Dr. ABC", affiliation: "Assistant Professor, IILM University, Greater Noida" },
-        // { name: "Dr. Nayan Kumar Sarkar", affiliation: "Assistant Professor, IILM University, Greater Noida" },
-        // { name: "Dr. Swati Vashisht", affiliation: "Assistant Professor, IILM University, Greater Noida" },
-        // { name: "Dr. Prakhar Consul", affiliation: "Assistant Professor, IILM University, Greater Noida" },
+        { name: "Dr. Juhi Priyani", affiliation: "IILM University, Greater Noida" },
+        { name: "Dr. Damyanti Singh", affiliation: "IILM University, Greater Noida" },
     ],
     coordinationCommittee: [
-        { name: "Dr. ABC (Chair)", affiliation: "Professor, IILM University, Greater Noida" },
-        // { name: "Dr. Harshal Patil", affiliation: "Professor, IILM University, Greater Noida" },
-        // { name: "Dr. A K Rastogi", affiliation: "Assistant Professor, IILM University, Greater Noida" },
-        // { name: "Dr. Rani Kumari", affiliation: "Assistant Professor, IILM University, Greater Noida" },
-        // { name: "Dr. Sumit Singh Dhanda", affiliation: "Associate Professor, IILM University, Greater Noida" },
-        // { name: "Dr. Sahil Kansal", affiliation: "Associate Professor, IILM University, Greater Noida" },
-        // { name: "Dr. Gunjan Mittal Roy", affiliation: "Associate Professor, IILM University, Greater Noida" },
-        // { name: "Dr. Neeraj Pratap", affiliation: "Associate Professor, IILM University, Greater Noida" },
-        // { name: "Dr. Ajay Kumar", affiliation: "Associate Professor, IILM University, Greater Noida" },
-        // { name: "Dr. Mudita", affiliation: "Assistant Professor, IILM University, Greater Noida" },
-        // { name: "Dr. Vijaya Choudhary", affiliation: "Assistant Professor, IILM University, Greater Noida" },
+        
+        { name: "Ms. Garima Kulshreshtra (Chair)", affiliation: "IILM University, Greater Noida" },
+        { name: "Ms. Priyanka Agarwal", affiliation: "IILM University, Greater Noida" }
+
     ],
+    SponsorshipCommittee: [
+
+        { name: "Ms. Kshama Pandey (Chair)", affiliation: "IILM University, Greater Noida" },
+        { name: "Mr. Arpit Varshney", affiliation: "IILM University, Greater Noida" },
+        { name: "Dr. Naseem Ahmed", affiliation: "IILM University, Greater Noida" },
+        { name: "Dr. Abhishek Kumar", affiliation: "IILM University, Greater Noida" },
+        { name: "Dr. Juhi Priyani", affiliation: "IILM University, Greater Noida" },
+        { name: "Dr. Ankita Awasthi", affiliation: "IILM University, Greater Noida" },
+
+    ],
+    RegistrationAndPublicityCommittee: [
+        { name: "Mr. Arpit Varshney (Chair)", affiliation: "IILM University, Greater Noida" },
+        { name: "Ms. Garima Kulshreshtra", affiliation: "IILM University, Greater Noida" },
+        { name: "Dr. Chandan Choubey", affiliation: "IILM University, Greater Noida" },
+        { name: "Ms. Kshama Pandey", affiliation: "IILM University, Greater Noida" },
+        { name: "Ms. Priyanka Agarwal", affiliation: "IILM University, Greater Noida" },
+
+
+    ],
+    ExecutionAndCoordinationCommittee: [
+
+        { name: "Ms. Garima Kulshreshtra (Chair)", affiliation: "IILM University, Greater Noida" },
+        { name: "Ms. Priyanka Agarwal", affiliation: "IILM University, Greater Noida" }
+    ],
+    WebSiteCommittee: [
+
+        { name: "Dr. Juhi Priyani", affiliation: "IILM University, Greater Noida" },
+        { name: "Dr. Damyanti Singh", affiliation: "IILM University, Greater Noida" },
+    ]   
 };
 
 const Community = () => {
@@ -269,18 +305,22 @@ const Community = () => {
                     <CommitteeSection title="General Chairs" icon={<Users size={20} />} members={COMMITTEE_DATA.generalChairs} />
                     <CommitteeSection title="Organizing Chairs (Convenors)" icon={<Users size={20} />} members={COMMITTEE_DATA.organizingChairs} />
                     <CommitteeSection title="Organizing Co-Chairs" icon={<Users size={20} />} members={COMMITTEE_DATA.organizingCoChairs} />
-                    <CommitteeSection title="Program (TPC) Chairs" icon={<BookOpen size={20} />} members={COMMITTEE_DATA.programChairs} />
+                    <CommitteeSection title="Technical Program Chairs" icon={<Globe size={20} />} members={COMMITTEE_DATA.TechnicalProgramChairs} />
                     <CommitteeSection title="Editors" icon={<BookOpen size={20} />} members={COMMITTEE_DATA.Editors} />
-                    <CommitteeSection title="International Advisory Board" icon={<Globe size={20} />} members={COMMITTEE_DATA.internationalAdvisory} />
-                    <CommitteeSection title="National Advisory Board" icon={<Globe size={20} />} members={COMMITTEE_DATA.nationalAdvisory} />
-                    <CommitteeSection title="Technical Program Committee" icon={<Briefcase size={20} />} members={COMMITTEE_DATA.technicalProgramCommittee} />
-                    <CommitteeSection title="Publicity Chairs" icon={<Megaphone size={20} />} members={COMMITTEE_DATA.publicityChairs} />
-                    <CommitteeSection title="Publicity Co-Chairs" icon={<Megaphone size={20} />} members={COMMITTEE_DATA.publicityCoChairs} />
+                    <CommitteeSection title="International Advisory Committee" icon={<Globe size={20} />} members={COMMITTEE_DATA.internationalAdvisory} />
+                    <CommitteeSection title="National Advisory Committee" icon={<Globe size={20} />} members={COMMITTEE_DATA.nationalAdvisory} />
+                    <CommitteeSection title="Technical Program Committee" icon={<Globe size={20} />} members={COMMITTEE_DATA.technicalProgramCommittee} />
+                    {/* <CommitteeSection title="Publicity Chairs" icon={<Megaphone size={20} />} members={COMMITTEE_DATA.publicityChairs} /> */}
+                    {/* <CommitteeSection title="Publicity Co-Chairs" icon={<Megaphone size={20} />} members={COMMITTEE_DATA.publicityCoChairs} /> */}
                     <CommitteeSection title="Finance Chair" icon={<DollarSign size={20} />} members={COMMITTEE_DATA.financeChair} />
-                    <CommitteeSection title="Finance Co-Chairs" icon={<DollarSign size={20} />} members={COMMITTEE_DATA.financeCoChairs} />
+                    <CommitteeSection title="Finance Committee" icon={<DollarSign size={20} />} members={COMMITTEE_DATA.financeCommittee} />
                     <CommitteeSection title="Digital Media Chairs" icon={<Share2 size={20} />} members={COMMITTEE_DATA.digitalMediaChairs} />
                     <CommitteeSection title="Digital Media Co-Chairs" icon={<Share2 size={20} />} members={COMMITTEE_DATA.digitalMediaCoChairs} />
-                    <CommitteeSection title="Coordination Committee" icon={<Users size={20} />} members={COMMITTEE_DATA.coordinationCommittee} />
+                    <CommitteeSection title="Coordination Committee" icon={<Briefcase size={20} />} members={COMMITTEE_DATA.coordinationCommittee} />
+                    <CommitteeSection title="Sponsorship Committee" icon={<Briefcase size={20} />} members={COMMITTEE_DATA.SponsorshipCommittee} />
+                    <CommitteeSection title="Registration and Publicity Committee" icon={<Briefcase size={20} />} members={COMMITTEE_DATA.RegistrationAndPublicityCommittee} />
+                    <CommitteeSection title="Execution and Coordination Committee" icon={<Briefcase size={20} />} members={COMMITTEE_DATA.ExecutionAndCoordinationCommittee} />
+                    <CommitteeSection title="Web Site Committee" icon={<Briefcase size={20} />} members={COMMITTEE_DATA.WebSiteCommittee} />    
 
                 </div>
             </main>
