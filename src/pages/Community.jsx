@@ -314,8 +314,8 @@ const Community = () => {
                     {/* <CommitteeSection title="Publicity Co-Chairs" icon={<Megaphone size={20} />} members={COMMITTEE_DATA.publicityCoChairs} /> */}
                     <CommitteeSection title="Finance Chair" icon={<DollarSign size={20} />} members={COMMITTEE_DATA.financeChair} />
                     <CommitteeSection title="Finance Committee" icon={<DollarSign size={20} />} members={COMMITTEE_DATA.financeCommittee} />
-                    <CommitteeSection title="Digital Media Chairs" icon={<Share2 size={20} />} members={COMMITTEE_DATA.digitalMediaChairs} />
-                    <CommitteeSection title="Digital Media Co-Chairs" icon={<Share2 size={20} />} members={COMMITTEE_DATA.digitalMediaCoChairs} />
+                    {/* <CommitteeSection title="Digital Media Chairs" icon={<Share2 size={20} />} members={COMMITTEE_DATA.digitalMediaChairs} /> */}
+                    {/* <CommitteeSection title="Digital Media Co-Chairs" icon={<Share2 size={20} />} members={COMMITTEE_DATA.digitalMediaCoChairs} /> */}
                     <CommitteeSection title="Coordination Committee" icon={<Briefcase size={20} />} members={COMMITTEE_DATA.coordinationCommittee} />
                     <CommitteeSection title="Sponsorship Committee" icon={<Briefcase size={20} />} members={COMMITTEE_DATA.SponsorshipCommittee} />
                     <CommitteeSection title="Registration and Publicity Committee" icon={<Briefcase size={20} />} members={COMMITTEE_DATA.RegistrationAndPublicityCommittee} />
