@@ -404,8 +404,14 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
             <NavItem href="#expectations" label="Tracks" scrolled={true} />
             <NavItem href="#milestones" label="Dates" scrolled={true} />
             {/* <NavItem href="#workshops" label="Workshops" scrolled={true} /> */}
-            <NavItem href="#advisory" label="Advisory" scrolled={true} />
-          <NavItem href="#cfp" label="CFP" scrolled={true} />
+            <Link
+              to="/cfp"
+              className="relative text-xs font-bold uppercase tracking-[0.2em] transition-colors duration-300 group text-slate-600 hover:text-slate-950"
+            >
+              CFP
+              <span className="absolute -bottom-2 left-0 w-full h-[1px] bg-slate-950 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
+            </Link>
+            {/* <NavItem href="#advisory" label="Advisory" scrolled={true} /> */}
           {/* <NavItem href="#editors" label="Editors" scrolled={true} /> */}
 
 

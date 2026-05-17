@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Users, Globe, Award, BookOpen, Megaphone, DollarSign, Share2, Briefcase } from 'lucide-react';
 import logoImg from '../assets/iilm-logo.png';
+import Conflogo from '../assets/conflogo.png';
 
 const fadeInUp = {
     hidden: { opacity: 0, y: 30 },
@@ -90,37 +91,63 @@ const COMMITTEE_DATA = {
 
     ],
     internationalAdvisory: [
-        // { name: "Dr. Sher Afghan Khan", affiliation: "International Islamic University, Malaysia" },
-        // { name: "Ms. Nandita Gupta", affiliation: "Principal Data Scientist, Walmart Labs, California, USA" },
-        // { name: "Dr. Saad Aldosary", affiliation: "Dept. of Computer Science, King Saud University, Saudi Arabia" },
-        // { name: "Mr. Arup Kumar Laha", affiliation: "Executive Architect, Country Delivery Lead, IBM, Thailand" },
-        // { name: "Mr. Dmitry (Soxoj) Danilov", affiliation: "Head of OSINT, Amsterdam, North Holland, Netherlands" },
-        // { name: "Ms. Marcie Sonderson", affiliation: "Criminal Investigator, McAfee, Missouri, USA" },
-        // { name: "Dr. Moustafa Hussien Aly", affiliation: "Arab Academy for Science, Technology and Maritime Transport, Egypt" },
-        // { name: "Dr. Walid El-Shafai", affiliation: "Menoufia University, Egypt" },
-        // { name: "Dr. Alexander Kuiper", affiliation: "Computer Scientist at Kuiper Forensics, Maintal, Hesse, Germany" },
-        // { name: "Dr. Xiao-Zhi Gao", affiliation: "Eastern Finland University, Finland" },
-        // { name: "Mr. Rajat Goel", affiliation: "Principal Engineer, DropBox, California, USA" },
-        // { name: "Dr. Fahri Özsungur", affiliation: "Mersin University, Turkey" },
-        // { name: "Dr. Karl McCreadie", affiliation: "School of Computing, Eng & Intel. Sys, Ulster University, UK" },
-        // { name: "Mr. Baris Dincer", affiliation: "CIO, Threat Intelligence Advisor, RedTeam Lead, LEX Program, Turkiye" },
-        // { name: "Dr. Ahmed Elnger", affiliation: "Beni-Suef University, Egypt" },
+        { name: "Dr. Amit Rai", affiliation: "Ulsan National Institute of Science and Technology, South Korea" },
+        { name: "Dr. Himanshu Sharma", affiliation: "University of Calgari, Canada" },
+        { name: "Kavita Vishwakarma", affiliation: "RnD Scientist, IMEC Belgium" },
+        { name: "Dr. Miroslav Skoric", affiliation: "Govt. of Serbia" },
+        { name: "Dr. Deepak jain", affiliation: "Daliyan University of Technology" },
+        { name: "Prof Ramesh Bansal", affiliation: "University of Sharjah" },
+        { name: "DR. Bhawna Verma", affiliation: "INFENION Germany" },
+        { name: "Prof. Jai Govind Singh", affiliation: "AIT Bangkok" },
+        { name: "Prof. Ghanshyam Singh", affiliation: "University of Johannesburg" },
+        { name: "Dr. Amit Kumar Prasad", affiliation: "University of Pittsburgh" }
+
     ],
     nationalAdvisory: [
-        // { name: "Dr. Raja Datta", affiliation: "IIT Kharagpur, India" },
-        // { name: "Dr. Manish Prateek", affiliation: "Professor and Pro Vice-Chancellor, DBS Global University" },
-        // { name: "Dr. Niranjan Prasad", affiliation: "Director-II (Scientist-F) (Retd), DRDO, India" },
-        // { name: "Dr. M. P. Jain", affiliation: "Pro Chancellor, IMS Unison University, India" },
-        // { name: "Dr. Sipra das Bit", affiliation: "Professor (HAG), IIEST, Shibpur, India" },
-        // { name: "Dr. Arindom Biswas", affiliation: "Kazi Nazrul University, India" },
-        // { name: "Dr. Talwar Yoginder", affiliation: "Scientist at National Informatics Centre, Min. of Communications & IT, Delhi, India" },
-        // { name: "Dr. Aditya Raj", affiliation: "Scientist, National Informatics Centre, MeitY, India" },
-        // { name: "Dr. Vijay Nath", affiliation: "BIT Mesra Ranchi & Executive Member of IETE & ISVE Ranchi Jharkhand India" },
-        // { name: "Dr. Amit Agarwal", affiliation: "Director, Institute of Technology, Gopeshwar, Uttarakhand, India" },
-        // { name: "Dr. Sanghamitra Bandyopadhyay", affiliation: "Indian Statistical Institute (ISI), Kolkata" },
-        // { name: "Dr. Jamuna Kanta Sing", affiliation: "Professor, Jadavpur University, India" },
+        { name: "Prof. Neeta Pandey", affiliation: "Delhi Technological University" },
+        { name: "Dr. Madan Kumar Das", affiliation: "NIT Jalandhar" },
+        { name: "Prof. (Dr.) Jyoti Ohri", affiliation: "NIT Kurukshetra" },
+        { name: "Dr. Shakti Sharma", affiliation: "Bennett University Greater Noida" },
+        { name: "Dr. Sanyog Rawat", affiliation: "Central University Rajasthan" },
+        { name: "Dr. Karan Veer", affiliation: "NIT Jalandhar" },
+        { name: "Dr. Richa Agarwal. Satta.", affiliation: "NIT Patna" },
+        { name: "Dr. Sandeep Kumar", affiliation: "JNU New Delhi" },
+        { name: "Dr. Arun Choudhary", affiliation: "MNRE, Delhi" },
+        { name: "Prof. Kirti Gupta", affiliation: "Bharti Vidyapeeth's College of Engineering, New Delhi" },
+        { name: "Prof (Dr.) Vinod Kumar Yadav", affiliation: "DTU" },
+        { name: "Prof. ( Dr.) Sathansh", affiliation: "NIT Kurukshetra" },
+        { name: "Dr. Ananyo Bhattacharya", affiliation: "NIT Jamshedpur" },
+        { name: "Dr. Dharmendra Tripathi,", affiliation: "NIT, Uttarakhand" },
+        { name: "Prof. Pramod Kumar", affiliation: "Central University Karnataka" },
+        { name: "Prof. Sunil Kumar Khah", affiliation: "JUIT Waknaghat" },
+        { name: "Dr. Vipin Pal", affiliation: "NIT Delhi" },
+        { name: "Prof (Dr.) J S Lather", affiliation: "NIT Kurukshetra" },
+        { name: "Dr. Jayendra Kumar", affiliation: "NIT Jamshedpur" },
+        { name: "Dr. Ankit Aggarwal", affiliation: "Galgotia University" },
+        { name: "Dr. Pratul Arvind", affiliation: "BBDITM, Lucknow" },
+        { name: "Prof. (Dr.) Usha Chauhan", affiliation: "Galgotias University, Greater Noida" },
+        { name: "Prof. Manish Prateek", affiliation: "DBS University Dehradun" }
     ],
     technicalProgramCommittee: [
+        { name: "Dr. Varun Gupta", affiliation: "NIT Silchar" },
+        { name: "Dr. Akhilesh Nautiyal", affiliation: "NIT Uttarakhand" },
+        { name: "Dr. Garima Varshney", affiliation: "Assistant Professor, ECE Dept., AKGEC" },
+        { name: "Dr. Tapan Nahar", affiliation: "Marwari University" },
+        { name: "Dr. Deepak Panwar", affiliation: "Manipal University Jaipur" },
+        { name: "Dr. Abhas Kanungo", affiliation: "KIET University" },
+        { name: "Dr. Ratish Dhiman", affiliation: "Chandigarh University" },
+        { name: "Dr. Pushpa Gothwal", affiliation: "VIT Vellore" },
+        { name: "Dr. Surender Dhiman", affiliation: "GGSIPU" },
+        { name: "Dr. Manisha Mittal", affiliation: "GGSIPU" },
+        { name: "Mr. Amit Chaurasia", affiliation: "Amity University Rajasthan" },
+        { name: "Mr. Vinod Sharma", affiliation: "Amity University Rajasthan" },
+        { name: "Dr. Pallav Rawal", affiliation: "SKIT, Jaipur" },
+        { name: "Dr. Prachi Dewan", affiliation: "GGSIPU" },
+        { name: "Dr. Bhawna Sharma", affiliation: "Manipal University Jaipur" },
+        { name: "Prof (Dr.) Shubham Tiwari", affiliation: "ABES, Ghaziabad" },
+        { name: "Prof (Dr.) S K Sinha", affiliation: "Amity University, Noida" },
+        { name: "Dr. Navneet Sharma", affiliation: "GEC Jaipur" },
+        { name: "Dr. Hari shankar", affiliation: "Chitkara University" },
         { name: "Dr. Ved Prakash Mishra", affiliation: "Professor, Amity University Dubai" },
         { name: "Dr. Swadha Gupta", affiliation: "Shiratech Knowtion GmbH, Germany" },
         { name: "Dr. Seema Rawat", affiliation: "Associate Professor, Amity University Tashkent Uzbekistan" },
@@ -180,6 +207,7 @@ const COMMITTEE_DATA = {
         { name: "Dr. Soumyabrata Chakrabarty", affiliation: "IIT, India" },
         { name: "Dr. Debrup Chakraborty", affiliation: "Indian Statistical Institute (ISI), India" },
         { name: "Mr. Karuna Nidhan Upadhyay", affiliation: "Assistant Director (Cyber Forensic), Directorate of Forensic Science and Laboratory, India" },
+    
     ],
     publicityChairs: [
         { name: "Dr. ABC", affiliation: "Associate Professor, IILM University, Greater Noida" },
@@ -255,9 +283,7 @@ const Community = () => {
                     <Link to="/" className="flex items-center gap-4 group">
                         <img src={logoImg} alt="IILM Logo" className="h-10 w-auto object-contain opacity-90 group-hover:opacity-100 transition-all" />
                         <div className="flex flex-col">
-                            <span className="font-sans font-bold text-xl tracking-tighter flex items-center gap-2 text-slate-950">
-                                NGCAI <span className="font-light text-slate-400">2026</span>
-                            </span>
+                            <img src={Conflogo} alt="Conference Logo" className="h-10 w-auto object-contain opacity-90 group-hover:opacity-100 transition-all" />
                             <span className="text-[8px] uppercase tracking-[0.3em] font-bold text-slate-500">Organizing Committee</span>
                         </div>
                     </Link>
