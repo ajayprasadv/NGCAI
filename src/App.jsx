@@ -422,7 +422,13 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
               Committee
               <span className="absolute -bottom-2 left-0 w-full h-[1px] bg-slate-950 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
             </Link>
-
+              <a
+                href="/cmt-acknowledgment.html"
+                className="relative text-xs font-bold uppercase tracking-[0.2em] transition-colors duration-300 group text-slate-600 hover:text-slate-950"
+              >
+                CMT Acknowledgment
+                <span className="absolute -bottom-2 left-0 w-full h-[1px] bg-slate-950 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
+              </a>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
