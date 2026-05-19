@@ -472,6 +472,13 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
               </a>
             ))}
             <Link
+              to="/cfp"
+              onClick={() => setIsMenuOpen(false)}
+              className="text-3xl font-bold text-slate-900 hover:text-emerald-600 transition-all"
+            >
+              CFP
+            </Link>
+            <Link
               to="/community"
               onClick={() => setIsMenuOpen(false)}
               className="text-3xl font-bold text-slate-900 hover:text-emerald-600 transition-all"
