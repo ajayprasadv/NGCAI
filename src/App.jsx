@@ -589,14 +589,14 @@ redefining the architecture of trust and technological advancement.
                 <CountdownTimer />
 
                 <div className="flex flex-wrap gap-4">
-                  <motion.button
+                  <Link
+                    to="/cfp"
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    onClick={() => document.getElementById('workflow')?.scrollIntoView({ behavior: 'smooth' })}
-                    className="flex-1 md:flex-none px-6 md:px-10 py-4 md:py-5 bg-amber-500 text-slate-900 text-[10px] md:text-xs font-bold uppercase tracking-[0.2em] shadow-xl rounded-lg flex items-center justify-center gap-3 group hover:bg-amber-400 transition-colors"
+                    className="flex-1 md:flex-none px-4 md:px-10 py-3 md:py-5 bg-amber-500 text-slate-900 text-[9px] md:text-xs font-bold uppercase tracking-[0.2em] shadow-xl rounded-lg flex items-center justify-center gap-2 md:gap-3 group hover:bg-amber-400 transition-colors"
                   >
                     Submit Paper <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
-                  </motion.button>
+                  </Link>
                   <motion.button
                     whileHover={{ scale: 1.02, backgroundColor: "#dbeafe" }}
                     whileTap={{ scale: 0.98 }}
