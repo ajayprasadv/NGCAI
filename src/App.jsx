@@ -543,13 +543,19 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
                   variants={fadeInUp}
                   className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-[1] md:leading-[0.95] tracking-tighter"
                 >
-                  <span className="block text-xl md:text-3xl font-normal text-amber-200 mb-2 md:mb-4 tracking-normal">International Conference on</span>
-                  Next Generation Cybersecurity & Applied AI <span className="relative inline-block">
+                  <span className="block text-xl md:text-3xl font-normal text-amber-300 mb-2 md:mb-4 tracking-normal">International Conference on</span>
+                  Next Generation Cybersecurity & Applied AI 
+                    <br />
+                    <span className="text-[22px] uppercase font-bold tracking-[0.2em] text-amber-200">
+                    Nov 20-21, 2026
+                    </span>
+                  
+                  <span className="relative inline-block">
                     
                     <motion.div
                       initial={{ width: 0 }}
                       animate={{ width: '100%' }}
-                      transition={{ delay: 1, duration: 1.5, ease: "circOut" }}
+                      transition={{ delay: 1, duration: 2, ease: "circOut" }}
                       className="absolute bottom-1 md:bottom-2 left-0 h-2 md:h-4 bg-amber-400/30 -z-10 skew-x-12"
                     />
                   </span>
