@@ -491,6 +491,13 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
             >
               Committee
             </Link>
+            <a
+              href="/cmt-acknowledgment.html"
+              onClick={() => setIsMenuOpen(false)}
+              className="text-3xl font-bold text-slate-900 hover:text-emerald-600 transition-all"
+            >
+              CMT Acknowledgment
+            </a>
             <button
               onClick={() => { setIsMenuOpen(false); setShowRegisterModal(true); }}
               className="mt-8 bg-slate-950 text-white px-10 py-4 text-xs font-bold uppercase tracking-widest"
@@ -555,7 +562,7 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
                     <motion.div
                       initial={{ width: 0 }}
                       animate={{ width: '100%' }}
-                      transition={{ delay: 1, duration: 2, ease: "circOut" }}
+                      transition={{ delay: 1, duration: 1.5, ease: "circOut" }}
                       className="absolute bottom-1 md:bottom-2 left-0 h-2 md:h-4 bg-amber-400/30 -z-10 skew-x-12"
                     />
                   </span>
@@ -565,11 +572,11 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
               {/* Scrolling Deadlines Ticker */}
               <motion.div variants={fadeInUp} className="w-full overflow-hidden bg-amber-500/10 border-y border-amber-400/20 py-2">
                 <motion.div
-                  animate={{ x: ["0%", "-50%"] }}
+                  animate={{ x: ["0%", "-100%"] }}
                   transition={{ repeat: Infinity, duration: 30, ease: "linear" }}
                   className="flex gap-12 whitespace-nowrap"
                 >
-                  {[...ICADC_CONTENT.deadlines, ...ICADC_CONTENT.deadlines].map((item, idx) => (
+                  {[...ICADC_CONTENT.deadlines, ...ICADC_CONTENT.deadlines, ...ICADC_CONTENT.deadlines,...ICADC_CONTENT.deadlines, ...ICADC_CONTENT.deadlines, ...ICADC_CONTENT.deadlines].map((item, idx) => (
                     <div key={idx} className="flex items-center gap-3">
                       <span className="text-[10px] font-bold uppercase tracking-widest text-amber-300">{item.label}:</span>
                       <span className="text-[10px] font-bold text-amber-100">{item.date}</span>
