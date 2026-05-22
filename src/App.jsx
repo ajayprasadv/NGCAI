@@ -569,7 +569,7 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
                     <motion.div
                       initial={{ width: 0 }}
                       animate={{ width: '100%' }}
-                      transition={{ delay: 1, duration: 1.5, ease: "circOut" }}
+                      transition={{ delay: 4, duration: 1.5, ease: "circOut" }}
                       className="absolute bottom-1 md:bottom-2 left-0 h-2 md:h-4 bg-amber-400/30 -z-10 skew-x-12"
                     />
                   </span>
@@ -619,7 +619,7 @@ redefining the architecture of trust and technological advancement.
                     to="/cfp"
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    className="w-full md:w-auto md:flex-none px-4 md:px-10 py-3 md:py-5 bg-amber-500 text-slate-900 text-[9px] md:text-xs font-bold uppercase tracking-[0.2em] shadow-xl rounded-lg flex items-center justify-center gap-2 md:gap-3 group hover:bg-amber-400 transition-colors"
+                    className="inline-flex items-center gap-3 bg-amber-200 text-slate-900 px-10 py-4 rounded-lg font-bold uppercase tracking-widest hover:bg-amber-100 transition-all"
                   >
                     Submit Paper <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
                   </Link>
@@ -627,7 +627,7 @@ redefining the architecture of trust and technological advancement.
                     whileHover={{ scale: 1.02, backgroundColor: "#dbeafe" }}
                     whileTap={{ scale: 0.98 }}
                     onClick={() => document.getElementById('expectations')?.scrollIntoView({ behavior: 'smooth' })}
-                    className="w-full md:w-auto md:flex-none px-4 md:px-10 py-3 md:py-5 bg-amber-500 text-slate-900 text-[9px] md:text-xs font-bold uppercase tracking-[0.2em] shadow-xl rounded-lg flex items-center justify-center gap-2 md:gap-3 group hover:bg-amber-400 transition-colors"
+                    className="inline-flex items-center gap-3 bg-amber-200 text-slate-900 px-10 py-4 rounded-lg font-bold uppercase tracking-widest hover:bg-amber-100 transition-all"
                   >
                     View Tracks
                   </motion.button>
