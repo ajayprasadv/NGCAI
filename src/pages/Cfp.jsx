@@ -249,10 +249,10 @@ const Cfp = () => {
               Please submit your full paper in only <strong>MS Word</strong> format through our Microsoft CMT portal.
             </p>
             <a 
-              href="#" 
+              href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FNGCAI2026" 
               className="inline-flex items-center gap-3 bg-amber-500 text-slate-900 px-10 py-4 rounded-lg font-bold uppercase tracking-widest hover:bg-amber-400 transition-all"
             >
-              Go to Submission Portal (coming soon) <ExternalLink size={18} />
+              Submit Paper <ExternalLink size={18} />
             </a>
           </div>
         </section>
