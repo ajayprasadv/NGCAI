@@ -60,7 +60,7 @@ const COMMITTEE_DATA = {
     ],
     generalChairs: [
         { name: "Dr. Munish Sabharwal", affiliation: "IILM University, Greater Noida" },
-        { name: "Dr. Alok Agarwal", affiliation: "IILM University, Greater Noida" },
+        // { name: "Dr. Alok Agarwal", affiliation: "IILM University, Greater Noida" },
         { name: "Dr. Arvind Kumar Jain", affiliation: "IILM University, Greater Noida" }
     ],
     organizingChairs: [
