@@ -541,6 +541,13 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
               <motion.div variants={fadeInUp} className="inline-flex items-center gap-3 px-5 py-2 bg-white rounded-full shadow-sm border border-slate-100">
                 <span className="text-[11px] uppercase font-bold tracking-[0.2em] text-slate-500">
                   Accepting Papers for 2026
+                  <a 
+                                href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FNGCAI2026" 
+                                className="inline-flex items-center gap-3 bg-amber-200 text-slate-900 px-10 py-4 rounded-lg font-bold uppercase tracking-widest hover:bg-amber-100 transition-all"
+                              >
+                                Submit Paper <ExternalLink size={18} />
+                  </a>
+                  
                 </span>
               </motion.div>
 
