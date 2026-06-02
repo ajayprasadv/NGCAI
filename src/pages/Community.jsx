@@ -56,7 +56,7 @@ const CommitteeSection = ({ title, icon, members }) => (
 
 const COMMITTEE_DATA = {
     patrons: [
-        { name: "Dr. Nihar Amoncar", affiliation: "Vice Chancellor, IILM University, Greater Noida, India" },
+        { name: "Dr. Jayasankar Variyar", affiliation: "Vice Chancellor, IILM University, Greater Noida, India" },
     ],
     generalChairs: [
         { name: "Dr. Munish Sabharwal", affiliation: "IILM University, Greater Noida" },

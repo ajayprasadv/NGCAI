@@ -569,7 +569,7 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
                     <motion.div
                       initial={{ width: 0 }}
                       animate={{ width: '100%' }}
-                      transition={{ delay: 4, duration: 1.5, ease: "circOut" }}
+                      transition={{ delay: 1, duration: 1.5, ease: "circOut" }}
                       className="absolute bottom-1 md:bottom-2 left-0 h-2 md:h-4 bg-amber-400/30 -z-10 skew-x-12"
                     />
                   </span>
