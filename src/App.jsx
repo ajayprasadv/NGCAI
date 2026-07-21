@@ -16,12 +16,12 @@ import pressLogo from './assets/atlantis.png';
 
 const ICADC_CONTENT = {
   deadlines: [
-    { label: "Conference Launched Date", date: "15 May 2026", status: "Upcoming", color: "text-indigo-500", bg: "bg-indigo-50" },
-    { label: "Submission Deadline", date: "30 July 2026", status: "Open", color: "text-rose-600", bg: "bg-rose-50" },
-    { label: "Paper Acceptance Decision and Notification", date: "30 August 2026", status: "Upcoming", color: "text-indigo-500", bg: "bg-indigo-50" },
-    { label: "Camera-Ready Paper Submission", date: "30 October 2026", status: "Pending", color: "text-indigo-500", bg: "bg-indigo-50" },
-    { label: "Registration Deadline", date: "30 October 2026", status: "Pending", color: "text-indigo-500", bg: "bg-indigo-50" },
-    { label: "Conference Date", date: "Nov 20-21, 2026", status: "Upcoming", color: "text-indigo-500", bg: "bg-indigo-50" }
+    { label: "Conference Launched Date", date: "Coming up shortly", status: "Upcoming", color: "text-indigo-500", bg: "bg-indigo-50" },
+    { label: "Submission Deadline", date: "Coming up shortly", status: "Open", color: "text-rose-600", bg: "bg-rose-50" },
+    { label: "Paper Acceptance Decision and Notification", date: "Coming up shortly", status: "Upcoming", color: "text-indigo-500", bg: "bg-indigo-50" },
+    { label: "Camera-Ready Paper Submission", date: "Coming up shortly", status: "Pending", color: "text-indigo-500", bg: "bg-indigo-50" },
+    { label: "Registration Deadline", date: "Coming up shortly", status: "Pending", color: "text-indigo-500", bg: "bg-indigo-50" },
+    { label: "Conference Date", date: "Coming up shortly", status: "Upcoming", color: "text-indigo-500", bg: "bg-indigo-50" }
   ],
 
   tracks: [
@@ -110,7 +110,7 @@ const NavItem = ({ href, label, scrolled }) => (
 
 const CountdownTimer = () => {
   // Target date: November 20, 2026
-  const targetDate = useMemo(() => new Date("2026-11-20T00:00:00"), []);
+  const targetDate = useMemo(() => new Date("2024-11-20T00:00:00"), []);
 
   const calculateTimeLeft = () => {
     const difference = +targetDate - +new Date();
@@ -225,7 +225,7 @@ const App = () => {
             >
               <div className="p-8 border-b border-slate-100 bg-slate-50/50 flex justify-between items-center">
                 <div>
-                  <p className="text-[10px] uppercase font-bold tracking-[0.2em] text-emerald-600 mb-2">NGCAI-2026</p>
+                  <p className="text-[10px] uppercase font-bold tracking-[0.2em] text-emerald-600 mb-2">NGCAI</p>
                   <h2 className="text-2xl font-bold text-slate-900">Secure Your Spot</h2>
                 </div>
                 <button
@@ -261,9 +261,9 @@ const App = () => {
 
                   <div className="pt-4">
                     <button type="submit" className="w-full bg-amber-500 text-slate-900 py-4 text-xs font-bold uppercase tracking-[0.2em] hover:bg-amber-400 transition-colors shadow-lg rounded-lg">
-                      Proceed to Payment
+                      Proceed to Payment(will be enabled soon)
                     </button>
-              <p className="text-xs text-slate-400">Secure payment powered by Stripe. Early bird rates apply.</p>
+              {/* <p className="text-xs text-slate-400">Secure payment powered by Stripe. Early bird rates apply.</p> */}
                   </div>
                 </form>
               </div>
@@ -292,7 +292,7 @@ const App = () => {
               {/* Modal Header */}
               <div className="sticky top-0 bg-white z-10 p-6 md:p-8 border-b border-slate-100 flex justify-between items-center bg-white/95 backdrop-blur-sm">
                 <div>
-                  <p className="text-[9px] md:text-[10px] uppercase font-bold tracking-[0.2em] text-emerald-600 mb-1 md:mb-2">NGCAI-2026</p>
+                  <p className="text-[9px] md:text-[10px] uppercase font-bold tracking-[0.2em] text-emerald-600 mb-1 md:mb-2">NGCAI</p>
                   <h2 className="text-xl md:text-3xl font-bold text-slate-900">Conference Overview</h2>
                 </div>
                 <button
@@ -318,12 +318,12 @@ In an era defined by escalating cyber threats, rapid digital transformation, and
                 <div className="grid md:grid-cols-2 gap-8 md:gap-12">
                   <section>
                     <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-3">
-                      <MapPin size={20} className="text-emerald-600" /> Host Institution
+                      {/* <MapPin size={20} className="text-emerald-600" /> Host Institution */}
                     </h3>
-                    <p className="text-base text-slate-500">
+                    {/* <p className="text-base text-slate-500">
                       The conference will be hosted by <strong className="text-slate-900">IILM University, Greater Noida</strong>, established under the Uttar Pradesh Private University (Amendment) Act 2022. As a young and forward-looking institution, the university is committed to nurturing engineering excellence, technological innovation, and AI-driven research ecosystems.
 Situated in the dynamic educational hub of Greater Noida, IILM University promotes hands-on engineering practices, interdisciplinary learning, and strong industry collaboration. The institution is actively building capabilities in AI engineering, cybersecurity infrastructure development, and advanced computing systems, positioning itself as a center for next-generation technology education and research.
-                    </p>
+                    </p> */}
                   </section>
 
                   <section>
@@ -390,10 +390,10 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
           <div className="flex items-center gap-6">
             <a href="#" className="flex items-center gap-4 group">
               {/* IMAGE 1: LOGO IN NAVBAR */}
-              <img src={logoImg} alt="IILM Logo" className="h-20 w-auto object-contain opacity-90 group-hover:opacity-100 transition-all" />
+              {/* <img src={logoImg} alt="IILM Logo" className="h-20 w-auto object-contain opacity-90 group-hover:opacity-100 transition-all" /> */}
               <div className="flex flex-col">
                 <img src={confLogo} alt="conference logo" className="h-10 w-auto object-contain" />
-                <img src={pressLogo} alt="press logo" className="h-10 w-auto object-contain" />
+                {/* <img src={pressLogo} alt="press logo" className="h-10 w-auto object-contain" /> */}
                 
               </div>
             </a>
@@ -405,7 +405,8 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
             <NavItem href="#milestones" label="Dates" scrolled={true} />
             {/* <NavItem href="#workshops" label="Workshops" scrolled={true} /> */}
             <Link
-              to="/cfp"
+              // to="/cfp"
+              to=""
               className="relative text-xs font-bold uppercase tracking-[0.2em] transition-colors duration-300 group text-slate-600 hover:text-slate-950"
             >
               CFP
@@ -415,7 +416,7 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
           {/* <NavItem href="#editors" label="Editors" scrolled={true} /> */}
 
 
-            <Link
+            {/* <Link
               to="/community"
               className="relative text-xs font-bold uppercase tracking-[0.2em] transition-colors duration-300 group text-slate-600 hover:text-slate-950"
             >
@@ -428,14 +429,14 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
               >
                 CMT Acknowledgment
                 <span className="absolute -bottom-2 left-0 w-full h-[1px] bg-slate-950 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
-              </a>
+              </a> */}
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => setShowRegisterModal(true)}
               className="px-8 py-3 text-[10px] font-bold uppercase tracking-[0.25em] transition-all shadow-lg bg-slate-950 text-white shadow-slate-900/10 hover:bg-emerald-600"
             >
-              Register Now
+              Register Now (will be enabled soon)
             </motion.button>
           </div>
 
@@ -463,7 +464,7 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
       </motion.nav>
 
       {/* --- MOBILE MENU --- */}
-      <AnimatePresence>
+      {/* <AnimatePresence>
         {isMenuOpen && (
           <motion.div
             initial={{ opacity: 0, y: -20 }}
@@ -504,9 +505,9 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
             >
               Register
             </button>
-          </motion.div>
-        )}
-      </AnimatePresence>
+          {/* </motion.div> */}
+        {/* )} */}
+      {/* // </AnimatePresence> */} 
 
       {/* --- HERO SECTION --- */}
       <header className="relative min-h-[100vh] flex items-center pt-32 md:pt-24 pb-12 overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-950 text-white">
@@ -540,9 +541,9 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
               {/* Badge */}
               <motion.div variants={fadeInUp} className="inline-flex items-center gap-3 px-5 py-2 bg-white rounded-full shadow-sm border border-slate-100">
                 <span className="text-[11px] uppercase font-bold tracking-[0.2em] text-slate-500">
-                  Accepting Papers for 2026
+                  Submissions are yet to open. Stay tuned for updates.
                   <a 
-                                href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FNGCAI2026" 
+                                href="" 
                                 className="inline-flex items-center gap-3 bg-amber-200 text-slate-900 px-10 py-4 rounded-lg font-bold uppercase tracking-widest hover:bg-amber-100 transition-all"
                               >
                                 Submit Paper <ExternalLink size={18} />
@@ -558,10 +559,10 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
                   className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-[1] md:leading-[0.95] tracking-tighter"
                 >
                   <span className="block text-xl md:text-3xl font-normal text-amber-300 mb-2 md:mb-4 tracking-normal">International Conference on</span>
-                  Next Generation Cybersecurity & Applied AI 
+                  Next Generation Cybersecurity & Applied AI
                     <br />
                     <span className="text-[22px] uppercase font-bold tracking-[0.2em] text-amber-200">
-                    Nov 20-21, 2026
+                    {/* Nov 20-21, 2026 */}
                     </span>
                   
                   <span className="relative inline-block">
@@ -583,7 +584,7 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
                   transition={{ repeat: Infinity, duration: 30, ease: "linear" }}
                   className="flex gap-12 whitespace-nowrap"
                 >
-                  {[...ICADC_CONTENT.deadlines, ...ICADC_CONTENT.deadlines, ...ICADC_CONTENT.deadlines,...ICADC_CONTENT.deadlines, ...ICADC_CONTENT.deadlines, ...ICADC_CONTENT.deadlines].map((item, idx) => (
+                  {[...ICADC_CONTENT.deadlines, ...ICADC_CONTENT.deadlines, ...ICADC_CONTENT.deadlines, ...ICADC_CONTENT.deadlines, ...ICADC_CONTENT.deadlines, ...ICADC_CONTENT.deadlines].map((item, idx) => (
                     <div key={idx} className="flex items-center gap-3">
                       <span className="text-[10px] font-bold uppercase tracking-widest text-amber-300">{item.label}:</span>
                       <span className="text-[10px] font-bold text-amber-100">{item.date}</span>
@@ -605,8 +606,8 @@ redefining the architecture of trust and technological advancement.
               <motion.div variants={fadeInUp} className="lg:hidden flex items-center gap-4 py-3 px-4 bg-slate-800/50 backdrop-blur-sm border border-amber-400/30 rounded-lg shadow-sm">
                 <Calendar size={18} className="text-amber-400" />
                 <div>
-                  <p className="text-sm font-bold text-amber-100">Oct 09-10, 2026</p>
-                  <p className="text-xs text-amber-300/70">IILM University, Greater Noida</p>
+                  <p className="text-sm font-bold text-amber-100">Will be announced soon</p>
+                  <p className="text-xs text-amber-300/70">Venue: Will be announced Soon</p>
                 </div>
               </motion.div>
 
@@ -643,13 +644,13 @@ redefining the architecture of trust and technological advancement.
               className="lg:col-span-4 hidden lg:flex flex-col gap-6 relative"
             >
               {/* Decorative line connecting cards */}
-              <div className="absolute left-8 top-10 bottom-10 w-[1px] bg-gradient-to-b from-slate-200 via-emerald-200 to-slate-200"></div>
+              <div className="absolute left-8 top-10 bottom-10 w-[1px] bg-gradient-to-b from-slate-200 via-amber-200 to-slate-200"></div>
 
-              {[                { label: "Host", val: "IILM University", sub: "Greater Noida", icon: <MapPin size={24} className="text-amber-400" /> },
-                { label: "Proceedings", val: "Coming Soon", sub: "To be announced", icon: <BookOpen size={24} className="text-amber-300" /> },
-                { label: "Date", val: "Nov 20-21", sub: "2026 Hybrid", icon: <Clock size={24} className="text-amber-200" /> }
-              ].map((stat, idx) => (
-                <motion.div
+              {/* {[                { label: "Host", val: "IILM University", sub: "Greater Noida", icon: <MapPin size={24} className="text-amber-400" /> }, */}
+                {/* { label: "Proceedings", val: "Coming Soon", sub: "To be announced", icon: <BookOpen size={24} className="text-amber-300" /> }, */}
+                {/* { label: "Date", val: "Coming up shortly", sub: "Hybrid", icon: <Clock size={24} className="text-amber-200" /> } */}
+              {/* ].map((stat, idx) => ( */}
+                {/* <motion.div
                   key={idx}
                   whileHover={{ x: -10, backgroundColor: "#ffffff" }}
                   className="relative p-6 ml-8 bg-white/60 backdrop-blur-md border border-white/40 shadow-[0_8px_30px_rgba(0,0,0,0.04)] rounded-lg group cursor-pointer transition-all"
@@ -666,8 +667,8 @@ redefining the architecture of trust and technological advancement.
                       {stat.icon}
                     </div>
                   </div>
-                </motion.div>
-              ))}
+                </motion.div> */}
+              {/* ))} */}
 
 
             </motion.div>
@@ -715,7 +716,7 @@ redefining the architecture of trust and technological advancement.
               <div className="lg:col-span-5 relative h-full">
                 <div className="sticky top-24 space-y-8">
                   <div className="relative group rounded-sm overflow-hidden h-[500px] shadow-2xl">
-                    <img src={campusImg} alt="IILM Campus Life" className="w-full h-full object-cover object-center scale-105 group-hover:scale-100 transition-all duration-1000 ease-out" />
+                    {/* <img src={campusImg} alt="IILM Campus Life" className="w-full h-full object-cover object-center scale-105 group-hover:scale-100 transition-all duration-1000 ease-out" /> */}
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-80"></div>
                     <div className="absolute bottom-8 left-8 right-8">
                       <span className="block w-12 h-1 bg-amber-500 mb-4"></span>
@@ -725,14 +726,14 @@ redefining the architecture of trust and technological advancement.
                   {/* CTA Box tucked under image for balance */}
                   <div className="bg-slate-900 text-white p-8 rounded-lg shadow-xl border-t-4 border-amber-500">
                     <BookOpen className="mb-4 text-amber-400" size={24} />
-                    <h3 className="text-lg font-bold mb-2">Select accepted and peer-reviewed papers will be published in Atlantis Highlights in Intelligent Systems series of Atlantis Press - a part of Springer Nature.
+                    {/* <h3 className="text-lg font-bold mb-2">Select accepted and peer-reviewed papers will be published in Atlantis Highlights in Intelligent Systems series of Atlantis Press - a part of Springer Nature. */}
                       <br/>
-                        <ArrowRight size={14} /> <a href="http://atlantis-press.com/proceedings/all" className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-amber-400 hover:text-white transition-colors">View Listing</a>
-                    </h3>
+                        {/* <ArrowRight size={14} /> <a href="http://atlantis-press.com/proceedings/all" className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-amber-400 hover:text-white transition-colors">View Listing</a> */}
+                    {/* </h3> */}
                     <p className="text-slate-400 text-sm mb-6 leading-relaxed">
 
                     </p>
-                    <a href="https://www.atlantis-press.com/policies" className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-amber-400 hover:text-white transition-colors">
+                    <a href="" className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-amber-400 hover:text-white transition-colors">
                       View Guidelines <ArrowRight size={14} />
                     </a>
                   </div>
@@ -751,7 +752,7 @@ redefining the architecture of trust and technological advancement.
                   <p>
                     {/* By converging <span className="text-emerald-700 font-medium">Artificial Intelligence </span> and <span className="text-slate-900 font-medium">Engineering</span> The conference aims to address the critical need for adaptive defenses in an era of sophisticated, AI-generated cyber threats. As intelligent technologies reshape connectivity, mobility, and security, the future demands adaptive, resilient, and innovation-driven solutions. */}
                   </p>
-                  <p className="mt-4 text-slate-500 leading-relaxed">The International Conference on Next-Generation Cybersecurity and Applied Artificial Intelligence - 2026 (NGCAI-2026) is a
+                  <p className="mt-4 text-slate-500 leading-relaxed">The International Conference on Next-Generation Cybersecurity and Applied Artificial Intelligence -  (NGCAI) is a
 distinguished global platform that unites academicians, researchers, industry leaders, policymakers, and innovators to explore
 transformative advancements in Artificial Intelligence, Digital Defense, Next-Generation Communication, and Electric Vehicle
 Technology. The conference focuses on building secure, intelligent, connected, and sustainable technological ecosystems for the
@@ -763,7 +764,7 @@ The conference promotes meaningful dialogue on leveraging machine learning, deep
 intelligence, and advanced communication technologies to predict, detect, mitigate, and recover from sophisticated cyberattacks
 while enabling secure innovation across critical sectors.
 
-NGCAI-2026 also highlights emerging paradigms in next-generation communication networks and smart electric vehicle ecosystems,
+NGCAI also highlights emerging paradigms in next-generation communication networks and smart electric vehicle ecosystems,
 fostering interdisciplinary collaboration to redefine the architecture of trust, connectivity, and sustainable technological
 advancement.</p>
 
@@ -782,11 +783,11 @@ advancement.</p>
                     </div>
                     <h4 className="font-bold uppercase tracking-widest text-xs text-slate-900 mb-2">Host Institution</h4>
                     <p className="text-sm text-slate-500 leading-relaxed">
-                      <strong>IILM University, Greater Noida.</strong> A hub for experiential learning and advanced research systems.
+                      {/* <strong>IILM University, Greater Noida.</strong> A hub for experiential learning and advanced research systems. */}
                     </p>
                   </div>
                   <div className="bg-white p-8 rounded-sm border border-slate-100 shadow-sm hover:shadow-lg hover:border-blue-200 transition-all group">
-                    <div className="w-10 h-10 bg-blue-50 rounded-full flex items-center justify-center text-blue-600 mb-4 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+ <div className="w-10 h-10 bg-blue-50 rounded-full flex items-center justify-center text-blue-600 mb-4 group-hover:bg-blue-600 group-hover:text-white transition-colors">
                       <Users size={20} />
                     </div>
                     <h4 className="font-bold uppercase tracking-widest text-xs text-slate-900 mb-2">Our Attendees</h4>
@@ -800,7 +801,7 @@ advancement.</p>
                   <h4 className="text-xs font-bold uppercase tracking-[0.2em] text-slate-400 mb-6">Career Pathways</h4>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     {(ICADC_CONTENT.careers || []).map((c, i) => (
-                      <div key={i} className="flex items-center gap-3 p-3 rounded-lg bg-amber-50/50 hover:bg-amber-100 border border-transparent hover:border-amber-300 transition-all cursor-default">
+ <div key={i} className="flex items-center gap-3 p-3 rounded-lg bg-amber-50/50 hover:bg-amber-100 border border-transparent hover:border-amber-300 transition-all cursor-default">
                         <span className="text-amber-600">{c.icon}</span>
                         <span className="text-xs font-bold text-slate-700">{c.role}</span>
                       </div>
@@ -821,7 +822,7 @@ advancement.</p>
               <SectionHeader
                 kicker="Important Dates"
                 title="Timelines & Deadlines"
-                subtitle="Strict adherence to these deadlines is required for inclusion in the 2026 proceedings."
+                // subtitle="Strict adherence to these deadlines is required for inclusion in the 2026 proceedings."
               />
             </div>
             <motion.div
@@ -1034,9 +1035,9 @@ advancement.</p>
         <div className="container mx-auto px-6 md:px-12">
           <div className="grid lg:grid-cols-4 gap-16 mb-24 border-b border-white/10 pb-16">
             <div className="lg:col-span-2">
-              <span className="font-bold text-3xl text-white mb-8 block">NGCAI 2026 <img src={pressLogo} alt="press logo" className="h-10 w-auto object-contain" /> </span> 
+              {/* <span className="font-bold text-3xl text-white mb-8 block">NGCAI 2026 <img src={pressLogo} alt="press logo" className="h-10 w-auto object-contain" /> </span>  */}
               <p className="text-slate-400 leading-relaxed max-w-sm mb-8">
-                Bridging the gap between AI innovation and cybersecurity resilience. Organized by IILM University for the global academic community.
+                {/* Bridging the gap between AI innovation and cybersecurity resilience. Organized by IILM University for the global academic community. */}
               </p>
               <div className="flex gap-6">
                 {[Twitter, Linkedin, Globe].map((Icon, i) => (
@@ -1066,14 +1067,14 @@ advancement.</p>
               <h4 className="text-xs font-bold uppercase tracking-[0.2em] text-slate-500 mb-8">Contact</h4>
               <p className="text-sm text-slate-300 mb-2">conference@icadc2026.org</p>
               <p className="text-sm text-slate-400 leading-relaxed">
-                Plot No. 16, Knowledge Park II, <br />
-                Greater Noida, UP 201306, India
+                {/* Plot No. 16, Knowledge Park II, <br />
+                Greater Noida, UP 201306, India */}
               </p>
             </div>
           </div>
 
           <div className="flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] uppercase font-bold tracking-widest text-slate-600">
-            <p>© 2026 IILM University. All rights reserved.</p>
+            {/* <p>© 2026 IILM University. All rights reserved.</p> */}
             <div className="flex gap-8">
               <a href="#" className="hover:text-slate-400">Privacy Policy</a>
               <a href="#" className="hover:text-slate-400">Terms of Service</a>
