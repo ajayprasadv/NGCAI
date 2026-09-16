@@ -109,8 +109,8 @@ const NavItem = ({ href, label, scrolled }) => (
 );
 
 const CountdownTimer = () => {
-  // Target date: November 20, 2026
-  const targetDate = useMemo(() => new Date("2024-11-20T00:00:00"), []);
+  // Target date: October 8, 2027
+  const targetDate = useMemo(() => new Date("2027-10-08T00:00:00"), []);
 
   const calculateTimeLeft = () => {
     const difference = +targetDate - +new Date();
@@ -412,24 +412,25 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
               CFP
               <span className="absolute -bottom-2 left-0 w-full h-[1px] bg-slate-950 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
             </Link>
-            {/* <NavItem href="#advisory" label="Advisory" scrolled={true} /> */}
-          {/* <NavItem href="#editors" label="Editors" scrolled={true} /> */}
+            {<NavItem href="#advisory" label="Advisory" scrolled={true} /> }
+          { <NavItem href="#editors" label="Editors" scrolled={true} /> }
 
 
-            {/* <Link
+            {<>
+              <Link
               to="/community"
               className="relative text-xs font-bold uppercase tracking-[0.2em] transition-colors duration-300 group text-slate-600 hover:text-slate-950"
             >
               Committee
               <span className="absolute -bottom-2 left-0 w-full h-[1px] bg-slate-950 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
-            </Link>
-              <a
-                href="/cmt-acknowledgment.html"
-                className="relative text-xs font-bold uppercase tracking-[0.2em] transition-colors duration-300 group text-slate-600 hover:text-slate-950"
-              >
+            </Link><a
+              href="/cmt-acknowledgment.html"
+              className="relative text-xs font-bold uppercase tracking-[0.2em] transition-colors duration-300 group text-slate-600 hover:text-slate-950"
+            >
                 CMT Acknowledgment
                 <span className="absolute -bottom-2 left-0 w-full h-[1px] bg-slate-950 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
-              </a> */}
+              </a>
+            </>}
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -562,7 +563,7 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
                   AI Based Cyber Resilience
                     <br />
                     <span className="text-[22px] uppercase font-bold tracking-[0.2em] text-amber-200">
-                    {/* Nov 20-21, 2026 */}
+                    {/* Oct 8-9, 2027 */}
                     </span>
                   
                   <span className="relative inline-block">
@@ -822,7 +823,7 @@ advancement.</p>
               <SectionHeader
                 kicker="Important Dates"
                 title="Timelines & Deadlines"
-                // subtitle="Strict adherence to these deadlines is required for inclusion in the 2026 proceedings."
+                // subtitle="Strict adherence to these deadlines is required for inclusion in the 2027 proceedings."
               />
             </div>
             <motion.div
@@ -1065,7 +1066,7 @@ advancement.</p>
 
             <div>
               <h4 className="text-xs font-bold uppercase tracking-[0.2em] text-slate-500 mb-8">Contact</h4>
-              <p className="text-sm text-slate-300 mb-2">conference@icadc2026.org</p>
+              <p className="text-sm text-slate-300 mb-2">conference@icabcr2027.org</p>
               <p className="text-sm text-slate-400 leading-relaxed">
                 {/* Plot No. 16, Knowledge Park II, <br />
                 Greater Noida, UP 201306, India */}
@@ -1074,7 +1075,7 @@ advancement.</p>
           </div>
 
           <div className="flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] uppercase font-bold tracking-widest text-slate-600">
-            {/* <p>© 2026 IILM University. All rights reserved.</p> */}
+            {/* <p>© 2027 IILM University. All rights reserved.</p> */}
             <div className="flex gap-8">
               <a href="#" className="hover:text-slate-400">Privacy Policy</a>
               <a href="#" className="hover:text-slate-400">Terms of Service</a>
