@@ -1035,7 +1035,7 @@ advancement.</p>
         <div className="container mx-auto px-6 md:px-12">
           <div className="grid lg:grid-cols-4 gap-16 mb-24 border-b border-white/10 pb-16">
             <div className="lg:col-span-2">
-              {/* <span className="font-bold text-3xl text-white mb-8 block">ICABCR 2026 <img src={pressLogo} alt="press logo" className="h-10 w-auto object-contain" /> </span>  */}
+              {/* <span className="font-bold text-3xl text-white mb-8 block">ICABCR 2027 <img src={pressLogo} alt="press logo" className="h-10 w-auto object-contain" /> </span>  */}
               <p className="text-slate-400 leading-relaxed max-w-sm mb-8">
                 {/* Bridging the gap between AI innovation and cybersecurity resilience. Organized by IILM University for the global academic community. */}
               </p>
