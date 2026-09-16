@@ -9,10 +9,10 @@ import { Link } from 'react-router-dom';
 import logoImg from './assets/iilm-logo.png';
 import heroImg from './assets/iilm-hero.png';
 import campusImg from './assets/iilm-campus1.png';
-import confLogo from './assets/conflogo.png';
+import confLogo from './assets/icabcr-logo.jpg';
 import workshopImg from './assets/iilm-workshop.png';
 import workflowImg from './assets/submission-workflow.jpg';
-import pressLogo from './assets/atlantis.png';
+import pressLogo from './assets/IEEE_up.png';
 
 const ICADC_CONTENT = {
   deadlines: [
@@ -225,7 +225,7 @@ const App = () => {
             >
               <div className="p-8 border-b border-slate-100 bg-slate-50/50 flex justify-between items-center">
                 <div>
-                  <p className="text-[10px] uppercase font-bold tracking-[0.2em] text-emerald-600 mb-2">NGCAI</p>
+                  <p className="text-[10px] uppercase font-bold tracking-[0.2em] text-emerald-600 mb-2">ICABCR</p>
                   <h2 className="text-2xl font-bold text-slate-900">Secure Your Spot</h2>
                 </div>
                 <button
@@ -292,7 +292,7 @@ const App = () => {
               {/* Modal Header */}
               <div className="sticky top-0 bg-white z-10 p-6 md:p-8 border-b border-slate-100 flex justify-between items-center bg-white/95 backdrop-blur-sm">
                 <div>
-                  <p className="text-[9px] md:text-[10px] uppercase font-bold tracking-[0.2em] text-emerald-600 mb-1 md:mb-2">NGCAI</p>
+                  <p className="text-[9px] md:text-[10px] uppercase font-bold tracking-[0.2em] text-emerald-600 mb-1 md:mb-2">ICABCR</p>
                   <h2 className="text-xl md:text-3xl font-bold text-slate-900">Conference Overview</h2>
                 </div>
                 <button
@@ -307,11 +307,11 @@ const App = () => {
               <div className="p-6 md:p-12 space-y-8 md:space-y-10 text-slate-600 leading-relaxed text-base md:text-lg">
                 <section>
                   <p className="first-letter:text-4xl md:first-letter:text-5xl first-letter:font-bold first-letter:text-slate-900 first-letter:mr-2 md:first-letter:mr-3 first-letter:float-left">
-                    The International Conference on Next-Generation Cybersecurity and Applied Artificial Intelligence (NGCAI) serves as a premier global platform dedicated to advancing engineering-driven innovations and AI-powered solutions in cybersecurity. It brings together researchers, engineers, academicians, industry professionals, policymakers, and innovators to explore cutting-edge developments at the convergence of Artificial Intelligence, Cybersecurity Engineering, and Intelligent Systems Design.
-In an era defined by escalating cyber threats, rapid digital transformation, and the proliferation of complex intelligent infrastructures, NGCAI emphasizes the engineering of resilient, scalable, and adaptive security architectures. The conference highlights the critical role of AI-enabled engineering approaches in designing proactive, automated, and self-learning defense mechanisms.
+                    The International Conference on AI Based Cyber Resilience (ICABCR) serves as a premier global platform dedicated to advancing engineering-driven innovations and AI-powered solutions in cybersecurity. It brings together researchers, engineers, academicians, industry professionals, policymakers, and innovators to explore cutting-edge developments at the convergence of Artificial Intelligence, Cybersecurity Engineering, and Intelligent Systems Design.
+In an era defined by escalating cyber threats, rapid digital transformation, and the proliferation of complex intelligent infrastructures, ICABCR emphasizes the engineering of resilient, scalable, and adaptive security architectures. The conference highlights the critical role of AI-enabled engineering approaches in designing proactive, automated, and self-learning defense mechanisms.
                   </p>
                   <p className="mt-4">
-                    NGCAI promotes in-depth discussions on the application of machine learning algorithms, deep neural networks, generative AI models, and hybrid intelligent systems to engineer solutions capable of predicting, detecting, mitigating, and recovering from sophisticated cyberattacks across critical infrastructures. Special attention is given to secure system design, AI model robustness, adversarial resilience, and real-time threat engineering.
+                    ICABCR promotes in-depth discussions on the application of machine learning algorithms, deep neural networks, generative AI models, and hybrid intelligent systems to engineer solutions capable of predicting, detecting, mitigating, and recovering from sophisticated cyberattacks across critical infrastructures. Special attention is given to secure system design, AI model robustness, adversarial resilience, and real-time threat engineering.
                   </p>
                 </section>
 
@@ -358,7 +358,7 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
                     ))}
                   </div>
                   <p className="text-base text-slate-500 mt-6">
-                    By integrating core engineering principles with advanced AI methodologies, NGCAI aims to empower the next generation of engineers and technologists to design and implement intelligent, secure, and resilient digital ecosystems capable of addressing evolving cyber threats.
+                    By integrating core engineering principles with advanced AI methodologies, ICABCR aims to empower the next generation of engineers and technologists to design and implement intelligent, secure, and resilient digital ecosystems capable of addressing evolving cyber threats.
                   </p>
                 </div>
 
@@ -559,7 +559,7 @@ Situated in the dynamic educational hub of Greater Noida, IILM University promot
                   className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-[1] md:leading-[0.95] tracking-tighter"
                 >
                   <span className="block text-xl md:text-3xl font-normal text-amber-300 mb-2 md:mb-4 tracking-normal">International Conference on</span>
-                  Next Generation Cybersecurity & Applied AI
+                  AI Based Cyber Resilience
                     <br />
                     <span className="text-[22px] uppercase font-bold tracking-[0.2em] text-amber-200">
                     {/* Nov 20-21, 2026 */}
@@ -747,24 +747,24 @@ redefining the architecture of trust and technological advancement.
                     About the <br /> <span className="text-slate-400">Conference</span>
                   </h3>
                   <p className="text-lg leading-relaxed text-slate-600">
-                    <strong>International Conference on Next-Generation Cybersecurity and Applied Artificial Intelligence (NGCAI)</strong> serves as a premier global forum connecting visionaries from academia and industry.
+                    <strong>International Conference on AI Based Cyber Resilience (ICABCR)</strong> serves as a premier global forum connecting visionaries from academia and industry.
                   </p>
                   <p>
                     {/* By converging <span className="text-emerald-700 font-medium">Artificial Intelligence </span> and <span className="text-slate-900 font-medium">Engineering</span> The conference aims to address the critical need for adaptive defenses in an era of sophisticated, AI-generated cyber threats. As intelligent technologies reshape connectivity, mobility, and security, the future demands adaptive, resilient, and innovation-driven solutions. */}
                   </p>
-                  <p className="mt-4 text-slate-500 leading-relaxed">The International Conference on Next-Generation Cybersecurity and Applied Artificial Intelligence -  (NGCAI) is a
+                  <p className="mt-4 text-slate-500 leading-relaxed">The International Conference on AI Based Cyber Resilience -  (ICABCR) is a
 distinguished global platform that unites academicians, researchers, industry leaders, policymakers, and innovators to explore
 transformative advancements in Artificial Intelligence, Digital Defense, Next-Generation Communication, and Electric Vehicle
 Technology. The conference focuses on building secure, intelligent, connected, and sustainable technological ecosystems for the
 future.
 
-In an era marked by rapid digital transformation, intelligent mobility, hyper-connectivity, and evolving cyber threats, NGCAI
+In an era marked by rapid digital transformation, intelligent mobility, hyper-connectivity, and evolving cyber threats, ICABCR
 emphasizes the growing need for adaptive, resilient, and AI-driven solutions capable of safeguarding modern digital infrastructures.
 The conference promotes meaningful dialogue on leveraging machine learning, deep neural networks, generative AI, hybrid
 intelligence, and advanced communication technologies to predict, detect, mitigate, and recover from sophisticated cyberattacks
 while enabling secure innovation across critical sectors.
 
-NGCAI also highlights emerging paradigms in next-generation communication networks and smart electric vehicle ecosystems,
+ICABCR also highlights emerging paradigms in next-generation communication networks and smart electric vehicle ecosystems,
 fostering interdisciplinary collaboration to redefine the architecture of trust, connectivity, and sustainable technological
 advancement.</p>
 
@@ -1035,7 +1035,7 @@ advancement.</p>
         <div className="container mx-auto px-6 md:px-12">
           <div className="grid lg:grid-cols-4 gap-16 mb-24 border-b border-white/10 pb-16">
             <div className="lg:col-span-2">
-              {/* <span className="font-bold text-3xl text-white mb-8 block">NGCAI 2026 <img src={pressLogo} alt="press logo" className="h-10 w-auto object-contain" /> </span>  */}
+              {/* <span className="font-bold text-3xl text-white mb-8 block">ICABCR 2026 <img src={pressLogo} alt="press logo" className="h-10 w-auto object-contain" /> </span>  */}
               <p className="text-slate-400 leading-relaxed max-w-sm mb-8">
                 {/* Bridging the gap between AI innovation and cybersecurity resilience. Organized by IILM University for the global academic community. */}
               </p>

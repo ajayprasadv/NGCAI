@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, FileText, Info, CheckCircle, Link as LinkIcon, ExternalLink, CreditCard, Mail, Globe } from 'lucide-react';
 import logoImg from '../assets/iilm-logo.png';
-import pressLogo from '../assets/atlantis.png';
-import Conflogo from '../assets/conflogo.png';
+import pressLogo from '../assets/IEEE_up.png';
+import Conflogo from '../assets/icabcr-logo.jpg';
 
 const slides = [
   {
@@ -159,10 +159,10 @@ const Cfp = () => {
         </div>
         <div className="container mx-auto px-6 md:px-12 relative z-10">
           <motion.div initial="hidden" animate="visible" variants={fadeInUp}>
-            <div className="flex items-center gap-4 mb-6"><span className="h-[1px] w-12 bg-amber-400"></span><p className="text-xs uppercase tracking-[0.3em] font-bold text-amber-400">NGCAI-2026</p></div>
+            <div className="flex items-center gap-4 mb-6"><span className="h-[1px] w-12 bg-amber-400"></span><p className="text-xs uppercase tracking-[0.3em] font-bold text-amber-400">ICABCR-2026</p></div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6">Call for Papers</h1>
             <p className="text-lg text-slate-400 max-w-2xl font-light">
-              The International Conference on Next-Generation Cybersecurity and Applied Artificial Intelligence (NGCAI-2026) 
+              The International Conference on AI Based Cyber Resilience (ICABCR-2026) 
               invites original, high-quality research papers that explore the intersection of AI, cybersecurity, and 
               emerging engineering technologies. We welcome submissions from academia, industry, and government 
               organizations worldwide.
@@ -181,7 +181,7 @@ const Cfp = () => {
           </div>
           <div className="prose prose-slate max-w-none text-slate-600 leading-relaxed">
             <p className="text-lg">
-                Everything you need to know about submitting your research to the International Conference on Next-Generation Cybersecurity and Applied Artificial Intelligence.
+                Everything you need to know about submitting your research to the International Conference on AI Based Cyber Resilience.
             </p>
             <div className="grid md:grid-cols-2 gap-8 mt-8">
               <div className="bg-white p-6 border border-slate-200 rounded-lg">

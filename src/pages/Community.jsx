@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Users, Globe, Award, BookOpen, Megaphone, DollarSign, Share2, Briefcase } from 'lucide-react';
 import logoImg from '../assets/iilm-logo.png';
-import Conflogo from '../assets/conflogo.png';
+import Conflogo from '../assets/icabcr-logo.jpg';
 
 const fadeInUp = {
     hidden: { opacity: 0, y: 30 },
@@ -313,11 +313,11 @@ const Community = () => {
                     >
                         <div className="flex items-center gap-4 mb-6">
                             <span className="h-[1px] w-12 bg-emerald-400"></span>
-                            <p className="text-xs uppercase tracking-[0.3em] font-bold text-emerald-400">NGCAI-2026</p>
+                            <p className="text-xs uppercase tracking-[0.3em] font-bold text-emerald-400">ICABCR-2026</p>
                         </div>
                         <h1 className="text-4xl md:text-6xl font-bold mb-6">Organizing Committee</h1>
                         <p className="text-lg text-slate-400 max-w-2xl font-light">
-                            Meet the distinguished academicians, researchers, and industry leaders driving the International Conference on Next-Generation Cybersecurity and Applied Artificial Intelligence.
+                            Meet the distinguished academicians, researchers, and industry leaders driving the International Conference on AI Based Cyber Resilience.
                         </p>
                     </motion.div>
                 </div>
